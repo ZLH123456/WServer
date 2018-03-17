@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<header>
+    <h1>WELCOME TO THE WSERVER IMPLEMENTATION</h1>
+</header>
+<body>
+<p>To download a file just type the filename and extension in the url. Ex: index.html (this will access the page you're
+    looking at). The following items are avaliable to download/visualize.
+</p>
+
+<table>
+    <tr>
+        <th>File</th>
+        <th>Extension</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>fichero</td>
+        <td>txt</td>
+        <td>A file that contains some text.</td>
+    </tr>
+
+    <!-- This is a comment, if the filters works it wont display this comment -->
+
+    <tr>
+        <td>index</td>
+        <td>html</td>
+        <td>An html page.If the ASCII parameter is set on true it will display this same page but without html tags,
+            in other words, it will be displayed as a plain text.</td>
+    </tr>
+    <tr>
+        <td>image</td>
+        <td>jpeg</td>
+        <td>An image that will show in the browser. If the parameters are zip or gzip (or even both) you will get a
+        windows to download the file compressed in the parameters that are set on true.</td>
+    </tr>
+</table>
+
+<p>The parameters you're able to use are: asc (to display a html file as a plain text), zip and gzip (to download a file
+    compressed on zip, gzip or both).</p>
+</body>
+</html>
